@@ -1,4 +1,3 @@
-
 import articlesData from './articles.json';
 
 export interface Article {
@@ -32,6 +31,19 @@ export interface AuthorInfo {
   socialLinks: AuthorSocialLinks;
 }
 
-export const articles: Article[] = articlesData.articles;
+// Clone the articles from JSON
+let articles: Article[] = [...articlesData.articles];
+
+// Randomly pick 3 to be featured
+const shuffled = [...articles].sort(() => 0.5 - Math.random());
+const featuredArticles = shuffled.slice(0, 3).map(a => a.id);
+
+// Update the featured field
+articles = articles.map(article => ({
+  ...article,
+  featured: featuredArticles.includes(article.id),
+}));
+
+export { articles };
 export const categories = articlesData.categories;
 export const authorInfo: AuthorInfo = articlesData.authorInfo;
