@@ -93,16 +93,28 @@ Follow these steps to run the project locally:
 ## 📂 Folder Structure
 
 ```
-├── components/         # Reusable UI components
-├── pages/              # Next.js routing pages
-│   ├── index.tsx       # Home Page
-│   └── articles/       # Dynamic article routes
-├── public/             # Static assets
-├── data/               # JSON data for articles
-├── styles/             # Global styles
-├── README.md
+├── public
+│   └── (Static assets like images, icons, etc.)
+├── src
+│   ├── components
+│   │   └── (Reusable components like Header, Footer, ArticleCard, etc.)
+│   ├── pages
+│   │   ├── index.tsx  (Home page)
+│   │   └── articles
+│   │       └── [id].tsx  (Dynamic route for articles)
+│   ├── styles
+│   │   └── tailwind.css (Tailwind styles)
+├── .gitignore
+├── bun.lockb
+├── eslint.config.js
+├── index.html
 ├── package.json
-└── next.config.js
+├── postcss.config.js
+├── tailwind.config.ts
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
 ```
 
 ---
