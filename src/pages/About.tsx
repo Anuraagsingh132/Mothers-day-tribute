@@ -12,7 +12,7 @@ const About = () => {
             <h1 className="text-3xl md:text-4xl font-serif mb-6">About Me</h1>
             <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6">
               <img 
-                src={authorInfo.image} 
+                src="/author.jpg"
                 alt={authorInfo.name} 
                 className="w-full h-full object-cover"
               />
