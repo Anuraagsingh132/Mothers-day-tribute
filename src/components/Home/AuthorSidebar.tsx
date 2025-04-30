@@ -8,7 +8,7 @@ const AuthorSidebar = () => {
       <div className="text-center mb-6">
         <div className="w-24 h-24 rounded-full overflow-hidden mx-auto mb-4">
           <img 
-            src={authorInfo.image} 
+            src="/author.jpg"
             alt={authorInfo.name} 
             className="w-full h-full object-cover"
           />
