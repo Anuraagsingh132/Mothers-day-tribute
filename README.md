@@ -1,73 +1,114 @@
-# Welcome to your Lovable project
+# 🌸 Mother's Day Tribute Blog
 
-## Project info
+A tribute blog built using **Next.js** to celebrate and honor mothers through inspiring stories. This project replicates a Figma design and showcases frontend skills such as UI implementation, routing, dynamic content rendering, and responsiveness.
 
-**URL**: https://lovable.dev/projects/da0d35a5-1739-4966-9cbf-4983579b1adc
+---
 
-## How can I edit this code?
+## 📌 Project Overview
 
-There are several ways of editing your application.
+This mini-blog site simulates a Mother's Day tribute platform where users can explore heartfelt stories, filter by categories, and read full articles. Built with **Next.js** and **Tailwind CSS**, the blog focuses on clean design, modular architecture, and mobile-first responsiveness.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/da0d35a5-1739-4966-9cbf-4983579b1adc) and start prompting.
+## ⚙️ Setup Instructions
 
-Changes made via Lovable will be committed automatically to this repo.
+Follow these steps to run the project locally:
 
-**Use your preferred IDE**
+1. **Clone the Repository**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+   ```bash
+   git clone https://github.com/Anuraagsingh132/Mothers-day-tribute.git
+   cd Mothers-day-tribute
+   ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+2. **Install Dependencies**
 
-Follow these steps:
+   ```bash
+   npm install
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+3. **Run the Development Server**
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+   ```bash
+   npm run dev
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+---
+
+## ✅ Features Implemented
+
+### 🏠 Home Page (`/`)
+- **Hero Section Carousel** with 3–5 featured tribute stories
+- **Explore by Category** with interactive category cards
+- **Recent Articles** section showing:
+  - Image
+  - Title
+  - 2–3 line excerpt
+  - Reading time
+  - Category tag
+  - ‘Read More’ button linking to full story
+
+- **Sidebar**
+  - Author profile (static)
+  - Highlighted destinations (static)
+
+### 📖 Story Detail Page (`/articles/:id`)
+- Dynamic routing for each article
+- Full content display with:
+  - Title
+  - Author Name
+  - Date
+  - Category
+  - Estimated reading time
+
+### 🔍 Bonus Features
+- **Search Bar**: Client-side filtering of articles by title or excerpt
+- **Category Filter**: Clicking a category filters the articles shown
+
+### 📁 Data Handling
+- All content sourced from a local JSON file (`data/articles.json`)
+- Each article object includes:
+  - `id`, `title`, `excerpt`, `content`, `author`, `date`, `category`, `readingTime`, `imageUrl`
+
+---
+
+## 🚀 Live Deployment
+
+🔗 [View Live](https://mothers-day-tribute-two.vercel.app/)
+
+---
+
+## 🛠️ Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/) (if used)
+- Local JSON for content storage
+
+---
+
+## 📂 Folder Structure
+
+```
+├── components/         # Reusable UI components
+├── pages/              # Next.js routing pages
+│   ├── index.tsx       # Home Page
+│   └── articles/       # Dynamic article routes
+├── public/             # Static assets
+├── data/               # JSON data for articles
+├── styles/             # Global styles
+├── README.md
+├── package.json
+└── next.config.js
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## ✍️ Author
 
-**Use GitHub Codespaces**
+Made with ❤️ for the Interax AI Mother's Day Tribute Challenge  
+**Anuraag Singh** – [LinkedIn](https://www.linkedin.com/in/anuraag-singh-78b286306/) • [GitHub Repo](https://github.com/Anuraagsingh132/Mothers-day-tribute)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/da0d35a5-1739-4966-9cbf-4983579b1adc) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
