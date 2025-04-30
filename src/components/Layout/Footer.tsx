@@ -38,7 +38,7 @@ const Footer = () => {
           </nav>
           
           <p className="text-center text-sm text-blog-muted-text">
-            © 2024 Mother's Day Tribute. All Rights Reserved.
+            © 2025 Mother's Day Tribute. All Rights Reserved.
           </p>
           
           <p className="text-center text-sm text-blog-muted-text mt-2 flex items-center justify-center">
