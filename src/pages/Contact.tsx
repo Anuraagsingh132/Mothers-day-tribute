@@ -54,7 +54,7 @@ const Contact = () => {
             
             <div className="mb-8">
               <img 
-                src="/placeholder.svg" 
+                src="/contact-us.svg" 
                 alt="Contact" 
                 className="w-full h-auto"
               />
