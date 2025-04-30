@@ -36,7 +36,7 @@ let articles: Article[] = [...articlesData.articles];
 
 // Randomly pick 3 to be featured
 const shuffled = [...articles].sort(() => 0.5 - Math.random());
-const featuredArticles = shuffled.slice(0, 3).map(a => a.id);
+const featuredArticles = shuffled.slice(0, 5).map(a => a.id);
 
 // Update the featured field
 articles = articles.map(article => ({
