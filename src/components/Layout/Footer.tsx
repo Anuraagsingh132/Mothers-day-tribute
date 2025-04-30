@@ -20,10 +20,10 @@ const Footer = () => {
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="bg-black text-white p-2 rounded-full hover:bg-blog-accent transition-colors" aria-label="Facebook">
               <Facebook size={18} />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="bg-black text-white p-2 rounded-full hover:bg-blog-accent transition-colors" aria-label="Instagram">
+            <a href="https://www.instagram.com/anuraag_singh19/" target="_blank" rel="noopener noreferrer" className="bg-black text-white p-2 rounded-full hover:bg-blog-accent transition-colors" aria-label="Instagram">
               <Instagram size={18} />
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="bg-black text-white p-2 rounded-full hover:bg-blog-accent transition-colors" aria-label="Twitter">
+            <a href="http://x.com/AnuraagSin5112" target="_blank" rel="noopener noreferrer" className="bg-black text-white p-2 rounded-full hover:bg-blog-accent transition-colors" aria-label="Twitter">
               <Twitter size={18} />
             </a>
           </div>
