@@ -13,7 +13,7 @@
       "date": "April 25, 2024",
       "category": "Reflections",
       "readingTime": "5 min read",
-      "image": "https://images.unsplash.com/photo-1518079414899-7e7f9f6f8ac1",
+      "image": "/1.png",
       "featured": true
     },
     {
@@ -28,7 +28,7 @@
       "date": "April 27, 2024",
       "category": "Traditions",
       "readingTime": "6 min read",
-      "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d",
+      "image": "/2.png",
       "featured": true
     },
     {
@@ -43,7 +43,7 @@
       "date": "April 28, 2024",
       "category": "Advice",
       "readingTime": "7 min read",
-      "image": "https://images.unsplash.com/photo-1547565393-0b7b0810a5f4",
+      "image": "/3.png",
       "featured": true
     },
     {
@@ -58,7 +58,7 @@
       "date": "April 29, 2024",
       "category": "Cultural",
       "readingTime": "8 min read",
-      "image": "https://images.unsplash.com/photo-1557592722-a0a649c8c5f5",
+      "image": "/4.png",
       "featured": false
     },
     {
@@ -73,7 +73,7 @@
       "date": "April 30, 2024",
       "category": "Literature",
       "readingTime": "9 min read",
-      "image": "https://images.unsplash.com/photo-1513001900722-370f803f498d",
+      "image": "/5.png",
       "featured": false
     },
     {
@@ -88,7 +88,7 @@
       "date": "May 1, 2024",
       "category": "Gift Ideas",
       "readingTime": "6 min read",
-      "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+      "image": "/6.png",
       "featured": false
     },
     {
@@ -103,7 +103,7 @@
       "date": "May 2, 2024",
       "category": "Inspirational",
       "readingTime": "7 min read",
-      "image": "https://images.unsplash.com/photo-1531983412667-f4bc8c1dd938",
+      "image": "/7.png",
       "featured": false
     },
     {
@@ -118,7 +118,7 @@
       "date": "May 3, 2024",
       "category": "Wellness",
       "readingTime": "8 min read",
-      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c",
+      "image": "/8.png",
       "featured": false
     }
   ],
@@ -135,13 +135,13 @@
   "authorInfo": {
     "name": "Anuraag Kumar Singh",
     "bio": "Frontend developer and storyteller passionate about creating meaningful digital experiences. Creator of the Mother's Day Tribute Blog.",
-    "image": "/placeholder.svg",
+    "image": "/author.jpg",
     "socialLinks": {
       "twitter": "https://twitter.com/anuraag",
       "facebook": "https://facebook.com/anuraag",
-      "instagram": "https://instagram.com/anuraag",
-      "github": "https://github.com/anuraag",
-      "linkedin": "https://linkedin.com/in/anuraag"
+      "instagram": "https://www.instagram.com/anuraag_singh19/",
+      "github": "https://github.com/Anuraagsingh132",
+      "linkedin": "https://www.linkedin.com/in/anuraag-singh-78b286306/"
     }
   }
 }
